@@ -156,7 +156,7 @@ ENUM!{enum COMPARTMENT_ID {
 }}
 pub type PCOMPARTMENT_ID = *mut COMPARTMENT_ID;
 pub type LOGICAL = ULONG;
-pub type PLOGICAL = *mut ULONG;
+pub type PLOGICAL = *mut LOGICAL;
 pub type NTSTATUS = LONG;
 pub type PNTSTATUS = *mut NTSTATUS;
 pub type PCNTSTATUS = *const NTSTATUS;
